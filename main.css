@@ -1,1 +1,16 @@
-/* ADD YOUR STYLES HERE */
+/* Signup Form */
+.signup-form label {
+	display: inline-block;
+	width: 8em;
+	padding: 10px;	
+	text-align: right;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.signup-form input {
+	display: inline-block;
+	width: 18em;
+	border: 1px solid lightslategray;
+	border-radius: 5px;
+	line-height: 1.8em; 
+}
