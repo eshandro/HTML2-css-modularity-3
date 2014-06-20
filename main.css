@@ -14,3 +14,7 @@
 	border-radius: 5px;
 	line-height: 1.8em; 
 }
+
+input[name="city"] {
+	width: 12em;
+}
