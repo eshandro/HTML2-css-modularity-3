@@ -59,7 +59,7 @@
                 <input type="text" name="state">
               </div>
               <div>
-                <div>
+                <div class="checkbox-horizontal">
                   <label><input type="checkbox">Sign up for the newsletter</label>
                 </div>
               </div>
@@ -79,10 +79,10 @@
           <p class="instruction-text">Create styles for validated inputs and validation messages.</p>
           <div class="instruction-answer">
             <!-- Edit here -->
-            <form>
+            <form class="signup-form">
               <div>
                 <label>First Name</label>
-                <input type="text" name="firstName" value="Pascal">
+                <input type="text" name="firstName" value="Pascal" class="field-valid">
                 <span class="is-valid">✓</span>
               </div>
               <div>
@@ -91,7 +91,7 @@
               </div>
               <div>
                 <label>Email</label>
-                <input type="email" name="email" value="myemail@something">
+                <input type="email" name="email" value="myemail@something" class="field-invalid">
                 <span class="is-invalid">Please enter a valid value.</span>
               </div>
             </form>
@@ -105,9 +105,9 @@
           <p class="instruction-text">The textbox should be fluid, i.e. stretch to fit the available space when the window changes size. <em>Hint: Look up 3-column layouts with fluid center.</em></p>
           <div class="instruction-answer">
             <!-- Edit here -->
-            <div>
+            <div class="search-bar">
               <label>Find groups</label>
-              <div>
+              <div class="search-bar-fluid">
                 <input placeholder="Find Groups by Title or Description">
               </div>
               <input type="submit">

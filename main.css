@@ -2,7 +2,7 @@
 .signup-form label {
 	display: inline-block;
 	width: 8em;
-	padding: 10px;	
+	padding: 1em;	
 	text-align: right;
 	font-family: Verdana, Geneva, sans-serif;
 }
@@ -18,3 +18,83 @@
 input[name="city"] {
 	width: 12em;
 }
+
+input[name="state"] {
+	width: 5em;
+}
+
+.signup-form .checkbox-horizontal label {
+	margin-left: 9em;
+	width: 27em;
+	padding-left: 0; 
+	vertical-align: middle;
+	text-align: left;
+
+}
+
+.checkbox-horizontal input[type="checkbox"] {
+	vertical-align: middle;
+	width: 2.5em;
+}
+
+.signup-form input[type="submit"] {
+	display: block;
+	margin-left: 9em;
+	padding-left: 10px
+}
+
+/* Valid and invalid fields */
+
+.field-valid {
+	box-shadow: 0 0 5px green;
+}
+
+.field-invalid {
+	box-shadow:  0 0 5px red;
+}
+
+.is-valid {
+	color: green;
+}
+
+.is-invalid {
+	color: red;
+}
+
+/* Search bar */
+
+.search-bar{
+	background-color: lightslategray;
+	border-radius: 10px;
+	padding: 10px 20px;
+	position: relative;
+	height: 30px;	
+}
+
+.search-bar label {
+	display: inline-block;
+	width: 90px;
+	position: absolute;
+	bottom: 15px;
+}
+
+.search-bar-fluid {
+	margin: 0 100px;
+}
+
+.search-bar-fluid input {
+	width: 100%;
+	border-radius: 3px;
+}
+
+.search-bar input[type="submit"] {
+	display: inline-block;
+	width: 60px;
+	background-color: #ed5c5c;
+	color: #eee;
+	font-size: .8em;
+	position: absolute;
+	bottom: 15px;
+	right: 30px;
+}
+
